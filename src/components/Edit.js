@@ -15,7 +15,7 @@ import BicepsLogo from "../assets/biceps-svgrepo-com.svg";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
-import InputLabel from "@mui/material/InputLabel";
+// import InputLabel from "@mui/material/InputLabel";
 
 const EditDialog = ({ open, handleClose }) => {
   const {
@@ -26,15 +26,15 @@ const EditDialog = ({ open, handleClose }) => {
     formState: { errors },
     watch,
   } = useForm();
-  const [switchValue, setSwitchValue] = useState(false);
+  // const [switchValue, setSwitchValue] = useState(false);
   const [startDate, setStartDate] = useState(null);
-  const [defaultJoiningDate, setDefaultJoiningDate] = useState(new Date());
+  const [defaultJoiningDate,] = useState(new Date());
   const watchMemberShipDuration = watch("membershipDuration");
   const watchStartDateJoining = watch("startDateJoining");
   const [membershipDuration, setMembershipDuration] = useState(null);
-  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [, setIsDialogOpen] = useState(false);
   const [isChecked, setChecked] = useState(false);
-  const [imageFile, setImageFile] = useState(null);
+  const [, setImageFile] = useState(null);
   const [imagePreview, setImagePreview] = useState(null);
 
   const handleImageChange = (e) => {
@@ -58,9 +58,9 @@ const EditDialog = ({ open, handleClose }) => {
     setChecked(!isChecked);
   };
 
-  const handleSwitchChange = () => {
-    setSwitchValue(!switchValue);
-  };
+  // const handleSwitchChange = () => {
+  //   setSwitchValue(!switchValue);
+  // };
 
   const calculateExpiryDate = (joiningDate, duration) => {
     const startDateValue = joiningDate ? new Date(joiningDate) : new Date();

@@ -91,6 +91,7 @@ const Analytics = () => {
     new ClipboardJS(".copy-message");
   }, []);
 
+  // eslint-disable-next-line
   const handleTabChange = (tab) => {
     setActiveTab(tab);
   };
@@ -158,7 +159,7 @@ const Analytics = () => {
               >
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Profile
@@ -166,7 +167,7 @@ const Analytics = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Settings
@@ -174,7 +175,7 @@ const Analytics = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Logout
@@ -228,7 +229,7 @@ const Analytics = () => {
               >
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Profile
@@ -236,7 +237,7 @@ const Analytics = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Settings
@@ -244,7 +245,7 @@ const Analytics = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Logout
@@ -316,7 +317,7 @@ const Analytics = () => {
               >
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Profile
@@ -324,7 +325,7 @@ const Analytics = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Settings
@@ -332,7 +333,7 @@ const Analytics = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Logout
@@ -342,7 +343,7 @@ const Analytics = () => {
             </div>
           </div>
           <a
-            href="#"
+            href="/"
             className="text-blue-500 font-medium text-sm hover:text-blue-600"
           >
             View details
@@ -537,7 +538,7 @@ const Analytics = () => {
               >
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Profile
@@ -545,7 +546,7 @@ const Analytics = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Settings
@@ -553,7 +554,7 @@ const Analytics = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                   >
                     Logout
@@ -621,7 +622,7 @@ const Analytics = () => {
                 >
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                     >
                       Profile
@@ -629,7 +630,7 @@ const Analytics = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                     >
                       Settings
@@ -637,7 +638,7 @@ const Analytics = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50"
                     >
                       Logout
@@ -671,7 +672,7 @@ const Analytics = () => {
                           className="w-8 h-8 rounded object-cover block"
                         />
                         <a
-                          href="#"
+                          href="/"
                           className="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate"
                         >
                           Create landing page
@@ -698,7 +699,7 @@ const Analytics = () => {
                           className="w-8 h-8 rounded object-cover block"
                         />
                         <a
-                          href="#"
+                          href="/"
                           className="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate"
                         >
                           Create landing page
@@ -725,7 +726,7 @@ const Analytics = () => {
                           className="w-8 h-8 rounded object-cover block"
                         />
                         <a
-                          href="#"
+                          href="/"
                           className="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate"
                         >
                           Create landing page
@@ -752,7 +753,7 @@ const Analytics = () => {
                           className="w-8 h-8 rounded object-cover block"
                         />
                         <a
-                          href="#"
+                          href="/"
                           className="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate"
                         >
                           Create landing page
@@ -779,7 +780,7 @@ const Analytics = () => {
                           className="w-8 h-8 rounded object-cover block"
                         />
                         <a
-                          href="#"
+                          href="/"
                           className="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate"
                         >
                           Create landing page
@@ -806,7 +807,7 @@ const Analytics = () => {
                           className="w-8 h-8 rounded object-cover block"
                         />
                         <a
-                          href="#"
+                          href="/"
                           className="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate"
                         >
                           Create landing page
@@ -833,7 +834,7 @@ const Analytics = () => {
                           className="w-8 h-8 rounded object-cover block"
                         />
                         <a
-                          href="#"
+                          href="/"
                           className="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate"
                         >
                           Create landing page
@@ -860,7 +861,7 @@ const Analytics = () => {
                           className="w-8 h-8 rounded object-cover block"
                         />
                         <a
-                          href="#"
+                          href="/"
                           className="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate"
                         >
                           Create landing page
@@ -887,7 +888,7 @@ const Analytics = () => {
                           className="w-8 h-8 rounded object-cover block"
                         />
                         <a
-                          href="#"
+                          href="/"
                           className="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate"
                         >
                           Create landing page
@@ -914,7 +915,7 @@ const Analytics = () => {
                           className="w-8 h-8 rounded object-cover block"
                         />
                         <a
-                          href="#"
+                          href="/"
                           className="text-gray-600 text-sm font-medium hover:text-blue-500 ml-2 truncate"
                         >
                           Create landing page

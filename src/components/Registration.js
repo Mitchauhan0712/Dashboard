@@ -210,7 +210,7 @@ const Registration = () => {
                     type="checkbox"
                   />
                   I agree to the
-                  <a className="ml-1 text-black hover:underline" href="#">
+                  <a className="ml-1 text-black hover:underline" href="/">
                     Terms and Conditions
                   </a>
                 </label>

@@ -176,7 +176,7 @@ const Membership = () => {
     watch,
   } = useForm();
   const activeTab = "all";
-  const [switchValue, setSwitchValue] = useState(false);
+  // const [switchValue, setSwitchValue] = useState(false);
   const [startDate, setStartDate] = useState(null);
   const [defaultJoiningDate, setDefaultJoiningDate] = useState(new Date());
   const [isDialogOpen, setIsDialogOpen] = useState(false);
@@ -186,7 +186,7 @@ const Membership = () => {
   const watchMemberShipDuration = watch("membershipDuration");
   const watchStartDateJoining = watch("startDateJoining");
   const [isChecked, setChecked] = useState(false);
-  const [imageFile, setImageFile] = useState(null);
+  const [ setImageFile] = useState(null);
   const [imagePreview, setImagePreview] = useState(null);
 
   const handleImageChange = (e) => {
@@ -210,9 +210,9 @@ const Membership = () => {
     setChecked(!isChecked);
   };
 
-  const handleSwitchChange = () => {
-    setSwitchValue(!switchValue);
-  };
+  // const handleSwitchChange = () => {
+  //   setSwitchValue(!switchValue);
+  // };
 
   const handleOpenDialog = () => {
     // Set the default joining date to the current date when the dialog is opened
